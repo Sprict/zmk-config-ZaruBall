@@ -9,7 +9,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.1.0 # Pinned to Nov 2024 release (Zephyr 3.x)
+      revision: v0.3.0 # Pinned to Aug 2025 release
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
