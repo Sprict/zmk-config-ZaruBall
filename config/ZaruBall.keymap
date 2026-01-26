@@ -158,11 +158,11 @@
             display-name = "Base";
             sensor-bindings = <&scroll_down_up>;
             bindings = <
-&kp ESC       &kp N1      &kp N2          &kp N3            &kp N4             &kp N5                               &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                             &kp NUMBER_6  &kp N7             &kp N8           &kp N9           &kp N0    &kp MINUS
-&kp GRAVE     &kp Q       &kp W           &kp E             &kp R              &kp T                                &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                           &kp Y         &kp U              &kp I            &kp O            &kp P     &kp EQUAL
-&kp TAB       &kp A       &mt LEFT_WIN S  &mt LEFT_ALT D    &mt RIGHT_SHIFT F  &kp G                   &kp INS      &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT               &kp H         &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_WIN L  &kp SEMI  &kp ENTER
-&kp LSHFT     &kp Z       &kp X           &kp C             &kp V              &kp B                   &kp GRAVE    &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT               &kp N         &kp M              &kp COMMA        &kp DOT          &kp FSLH  &kp RIGHT_SHIFT
-&kp LEFT_WIN  &kp C_MUTE                  &kp LEFT_CONTROL  &lt 2 BACKSPACE    &mt LEFT_CONTROL SPACE  &mo 3                                                                &mt RIGHT_CONTROL TAB  &lt 3 ENTER                                                                  &td1
+&kp ESC       &kp F1      &kp F2  &kp F3            &kp F4           &kp F5                                   &kp KP_N7     &kp KP_N8  &kp KP_N9   &kp KP_DIVIDE                             &kp F6       &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&kp GRAVE     &kp Q       &kp L   &kp U             &kp COMMA        &kp PERIOD                               &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                           &kp F        &kp W   &kp R   &kp Y   &kp P    &kp F12
+&kp TAB       &kp E       &kp I   &kp A             &kp O            &kp MINUS               &kp PAGE_UP      &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT               &kp K        &kp T   &kp N   &kp S   &kp H    &kp ENTER
+&kp LSHFT     &kp Z       &kp X   &kp C             &kp V            &kp SEMICOLON           &kp PAGE_DOWN    &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT               &kp G        &kp D   &kp M   &kp J   &kp B    &kp RIGHT_SHIFT
+&kp LEFT_WIN  &kp C_MUTE          &kp LEFT_CONTROL  &lt 2 BACKSPACE  &mt LEFT_CONTROL ENTER  &mo 3                                                                    &mt RIGHT_CONTROL TAB  &lt 3 SPACE                                   &td1
             >;
         };
 
@@ -182,11 +182,11 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans     &kp F1        &kp F2                 &kp F3                 &kp F4                   &kp F5                   &trans  &trans  &trans  &trans              &trans          &kp LEFT_PARENTHESIS  &trans               &kp RIGHT_PARENTHESIS   &trans         &trans
-&trans     &trans        &kp NUMBER_1           &kp NUMBER_2           &kp NUMBER_3             &kp HOME                 &trans  &trans  &trans  &trans              &kp CARET       &kp LESS_THAN         &kp EQUAL            &kp GREATER_THAN        &trans         &none
-&kp TILDE  &kp NUMBER_0  &mt LEFT_WIN NUMBER_4  &mt LEFT_ALT NUMBER_5  &mt LEFT_SHIFT NUMBER_5  &kp PERIOD  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp UNDERSCORE  &mt RIGHT_SHIFT PLUS  &mt RIGHT_ALT MINUS  &mt RIGHT_WIN ASTERISK  &kp SLASH      &kp PERCENT
-&trans     &kp DOLLAR    &kp NUMBER_7           &kp NUMBER_8           &kp NUMBER_9             &kp END     &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &trans          &kp EXCLAMATION       &kp QUESTION         &kp COLON               &kp SEMICOLON  &none
-&trans     &kp RSHFT                            &trans                 &trans                   &trans      &trans                                         &trans    &trans                                                                                            &studio_unlock
+&trans     &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                   &trans  &trans  &trans  &trans              &trans          &kp LEFT_PARENTHESIS  &trans        &kp RIGHT_PARENTHESIS  &trans         &trans
+&trans     &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp HOME                 &trans  &trans  &trans  &trans              &kp CARET       &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &trans         &none
+&kp TILDE  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp UNDERSCORE  &kp PLUS              &kp MINUS     &kp ASTERISK           &kp SLASH      &kp PERCENT
+&trans     &kp DOLLAR    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp END     &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &trans          &kp EXCLAMATION       &kp QUESTION  &kp COLON              &kp SEMICOLON  &none
+&trans     &kp RSHFT                   &trans        &trans        &trans      &trans                                         &trans    &trans                                                                                    &studio_unlock
             >;
         };
 
@@ -194,11 +194,11 @@
             display-name = "Raise";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
             bindings = <
-&trans       &trans         &trans                             &trans                     &trans                            &trans                             &trans  &trans  &trans  &trans               &none     &none       &none            &none       &none          &none
-&trans       &none          &kp LEFT_BRACKET                   &kp DOUBLE_QUOTES          &kp RIGHT_BRACKET                 &kp AMPERSAND                      &trans  &trans  &trans  &trans               &none     &kp ESC     &kp UP_ARROW     &none       &none          &none
-&kp AT_SIGN  &kp HASH       &mt LEFT_CONTROL LEFT_PARENTHESIS  &mt LEFT_ALT SINGLE_QUOTE  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp PIPE        &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp PG_UP  &kp HOME  &kp LEFT    &kp DOWN         &kp RIGHT   &kp C_BRI_INC  &kp PRINTSCREEN
-&trans       &kp BACKSLASH  &kp LEFT_BRACE                     &kp GRAVE                  &kp RIGHT_BRACE                   &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN  &kp END   &kp C_PREV  &kp PAUSE_BREAK  &kp C_NEXT  &kp C_BRI_DEC  &none
-&trans       &none                                             &trans                     &trans                            &trans          &trans                                               &trans     &trans                                                            &trans
+&trans       &trans         &trans                &trans             &trans                 &trans                             &trans  &trans  &trans  &trans               &none     &none       &none            &none       &none          &none
+&trans       &none          &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AMPERSAND                      &trans  &trans  &trans  &trans               &none     &kp ESC     &kp UP_ARROW     &none       &none          &none
+&kp AT_SIGN  &kp HASH       &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &kp PIPE        &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp PG_UP  &kp HOME  &kp LEFT    &kp DOWN         &kp RIGHT   &kp C_BRI_INC  &kp PRINTSCREEN
+&trans       &kp BACKSLASH  &kp LEFT_BRACE        &kp GRAVE          &kp RIGHT_BRACE        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN  &kp END   &kp C_PREV  &kp PAUSE_BREAK  &kp C_NEXT  &kp C_BRI_DEC  &none
+&trans       &none                                &trans             &trans                 &trans          &trans                                               &trans     &trans                                                            &trans
             >;
         };
 
