@@ -182,7 +182,7 @@
             display-name = "Lower";
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             bindings = <
-&trans     &kp F1        &kp F2                 &kp F3                 &kp F4                   &kp F5                   &trans  &trans  &trans  &trans              &trans          &trans                &trans               &trans                  &trans         &trans
+&trans     &kp F1        &kp F2                 &kp F3                 &kp F4                   &kp F5                   &trans  &trans  &trans  &trans              &trans          &kp LEFT_PARENTHESIS  &trans               &kp RIGHT_PARENTHESIS   &trans         &trans
 &trans     &trans        &kp NUMBER_1           &kp NUMBER_2           &kp NUMBER_3             &kp HOME                 &trans  &trans  &trans  &trans              &kp CARET       &kp LESS_THAN         &kp EQUAL            &kp GREATER_THAN        &trans         &none
 &kp TILDE  &kp NUMBER_0  &mt LEFT_WIN NUMBER_4  &mt LEFT_ALT NUMBER_5  &mt LEFT_SHIFT NUMBER_5  &kp PERIOD  &kp PG_UP    &trans  &trans  &trans  &trans    &kp LPAR  &kp UNDERSCORE  &mt RIGHT_SHIFT PLUS  &mt RIGHT_ALT MINUS  &mt RIGHT_WIN ASTERISK  &kp SLASH      &kp PERCENT
 &trans     &kp DOLLAR    &kp NUMBER_7           &kp NUMBER_8           &kp NUMBER_9             &kp END     &kp PG_DN    &trans  &trans  &trans  &trans    &kp RPAR  &trans          &kp EXCLAMATION       &kp QUESTION         &kp COLON               &kp SEMICOLON  &none
