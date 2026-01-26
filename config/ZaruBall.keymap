@@ -214,11 +214,11 @@
 
         game {
             bindings = <
-&trans            &trans  &trans  &trans        &trans        &trans               &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans        &trans        &trans               &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB           &trans  &kp S   &kp D         &kp F         &trans     &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&kp LEFT_SHIFT    &trans  &trans  &trans        &trans        &trans     &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &trans          &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans                                      &trans  &trans                                  &trans
+&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4      &kp NUMBER_5                   &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE       &kp Q         &kp W         &kp E           &kp R             &kp T                          &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp A         &kp S         &kp D           &kp F             &kp G         &kp BACKSPACE    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C           &kp V             &kp B         &kp ENTER        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_SHIFT
+&kp LEFT_WIN    &trans                      &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp SPACE     &kp LEFT_ALT                                       &trans  &trans                                  &trans
             >;
         };
 
