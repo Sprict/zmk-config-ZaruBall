@@ -162,7 +162,7 @@
 &kp GRAVE     &kp Q       &kp L   &kp U             &kp COMMA        &kp PERIOD                               &kp KP_N4     &kp KP_N5  &kp KP_N6   &kp KP_MULTIPLY                           &kp F        &kp W   &kp R   &kp Y   &kp P    &kp F12
 &kp TAB       &kp E       &kp I   &kp A             &kp O            &kp MINUS               &kp PAGE_UP      &kp KP_N1     &kp KP_N2  &kp KP_N3   &kp KP_MINUS       &kp LBKT               &kp K        &kp T   &kp N   &kp S   &kp H    &kp ENTER
 &kp LSHFT     &kp Z       &kp X   &kp C             &kp V            &kp SEMICOLON           &kp PAGE_DOWN    &kp KP_ENTER  &kp KP_N0  &kp KP_DOT  &kp KP_PLUS        &kp RBKT               &kp G        &kp D   &kp M   &kp J   &kp B    &kp RIGHT_SHIFT
-&kp LEFT_WIN  &kp C_MUTE          &kp LEFT_CONTROL  &lt 2 BACKSPACE  &mt LEFT_CONTROL ENTER  &mo 3                                                                    &mt RIGHT_CONTROL TAB  &lt 3 SPACE                                   &td1
+&kp LEFT_WIN  &kp C_MUTE          &kp LEFT_CONTROL  &lt 2 BACKSPACE  &mt LEFT_CONTROL ENTER  &kp LEFT_ALT                                                             &mt RIGHT_CONTROL TAB  &lt 3 SPACE                                   &td1
             >;
         };
 
@@ -194,11 +194,11 @@
             display-name = "Raise";
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
             bindings = <
-&trans       &trans         &trans                &trans             &trans                 &trans                             &trans  &trans  &trans  &trans               &none     &none       &none            &none       &none          &none
-&trans       &none          &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AMPERSAND                      &trans  &trans  &trans  &trans               &none     &kp ESC     &kp UP_ARROW     &none       &none          &none
-&kp AT_SIGN  &kp HASH       &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &kp PIPE        &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp PG_UP  &kp HOME  &kp LEFT    &kp DOWN         &kp RIGHT   &kp C_BRI_INC  &kp PRINTSCREEN
-&trans       &kp BACKSLASH  &kp LEFT_BRACE        &kp GRAVE          &kp RIGHT_BRACE        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN  &kp END   &kp C_PREV  &kp PAUSE_BREAK  &kp C_NEXT  &kp C_BRI_DEC  &none
-&trans       &none                                &trans             &trans                 &trans          &trans                                               &trans     &trans                                                            &trans
+&trans       &trans         &trans                &trans             &trans                 &trans                             &trans  &trans  &trans  &trans                   &none         &none       &none            &none          &none           &none
+&trans       &none          &kp LEFT_BRACKET      &kp DOUBLE_QUOTES  &kp RIGHT_BRACKET      &kp AMPERSAND                      &trans  &trans  &trans  &trans                   &kp LC(LEFT)  &kp END     &kp HOME         &kp LC(RIGHT)  &kp LC(DELETE)  &none
+&kp AT_SIGN  &kp HASH       &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE   &kp RIGHT_PARENTHESIS  &kp PIPE        &msc SCRL_LEFT     &trans  &trans  &trans  &trans    &kp BACKSPACE  &kp LEFT      &kp DOWN    &kp UP           &kp RIGHT      &kp DELETE      &kp PRINTSCREEN
+&trans       &kp BACKSLASH  &kp LEFT_BRACE        &kp GRAVE          &kp RIGHT_BRACE        &msc SCRL_DOWN  &msc SCRL_RIGHT    &trans  &trans  &trans  &trans    &kp PG_DN      &kp END       &kp C_PREV  &kp PAUSE_BREAK  &kp C_NEXT     &kp RIGHT_ALT   &none
+&trans       &none                                &trans             &trans                 &trans          &trans                                               &trans         &trans                                                                    &trans
             >;
         };
 
